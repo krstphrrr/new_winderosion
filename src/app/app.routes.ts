@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { RouterModule } from '@angular/router';
+// import { RouterModule } from '@angular/router';
 import { IndexComponent } from './pages/index/index.component';
 import { DataPortalComponent } from './pages/data-portal/data-portal.component';
 import { DataSubmissionPortalComponent } from './pages/data-portal/data-submission-portal/data-submission-portal.component';
@@ -67,8 +67,4 @@ export const routes: Routes = [
     { path: 'publications', component: PublicationsComponent}
 ];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-    exports: [RouterModule]
-})
 export class AppRoutingModule { }

@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "80:80"  # Serve Angular app on host port 80
+      - "81:80"  # Serve Angular app on host port 80
     restart: unless-stopped
     logging:
       driver: "json-file"
